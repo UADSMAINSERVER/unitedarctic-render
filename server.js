@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 const http = require('http');
 
-const TARGET_URL = 'wss://with-scout-witness-stud.trycloudflare.com';
+const TARGET_URL = 'wss://geo-quality-website-given.trycloudflare.com';
 
 const server = http.createServer();
 const wss = new WebSocket.Server({ server });
