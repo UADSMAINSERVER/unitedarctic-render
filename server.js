@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 const http = require('http');
 
-const TARGET_URL = 'wss://unitedarctic.loca.lt'; // your LocalTunnel URL
+const TARGET_URL = 'https://unitedarctic.loca.lt'; // your LocalTunnel URL
 
 const server = http.createServer();
 const wss = new WebSocket.Server({ server });
